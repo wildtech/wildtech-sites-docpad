@@ -1,0 +1,26 @@
+<h2 class="section-title"><%= @labels['schedule'] %></h2>
+<p>Uma mistura de princípios, valores, cultura e ferramentas práticas para você ganhar percepção sobre o seu tempo.</p>
+<p><i>“Observar para perceber, planejar para visualizar, executar para realizar. Faça ciclos curtos, revisando sempre se a direção atual é a que você quer. -- Daniel Wildt”</i></p>
+
+<div class="schedule-tbl">
+  <table>
+    <thead>
+      <tr>
+        <th class="schedule-time">Bloco</th>
+        <th class="schedule-slot">Objetivo</th>
+        <th class="schedule-description">Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <% for topic in @schedule: %>
+          <tr class="schedule-other">
+            <td class="schedule-time"><%= topic.block %></td>
+            <td class="schedule-slot"><%= topic.name %></td>
+            <td class="schedule-description"><%= topic.description %></td>
+          </tr>
+      <% end %>
+
+    </tbody>
+  </table>
+</div>
