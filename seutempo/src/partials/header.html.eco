@@ -10,8 +10,8 @@
     </h1>
     <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
     <div class="call-action-area">
-      <span class="price">A partir de <%= @conf.price %></span>
-      <a href="http://nos.vc/pt/seutempo" class="call-action-link" title="Quero me inscrever!">Quero me inscrever!</a>
+      <span class="price">Lote 1 R$120, lote 2 <%= @conf.price %></span>
+      <a href="http://nos.vc/pt/seu-tempo" class="call-action-link" title="Quero meu tempo!">Quero meu tempo!</a>
     </div>
   </div>
 </header>

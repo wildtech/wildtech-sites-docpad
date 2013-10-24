@@ -12,11 +12,11 @@ module.exports = {
     conf: {
 	  disqus: "wildtech",
       name: "Qual é o seu Tempo?",
-      description: "Conference description",
-      date: "15 de Agosto",
-      price: "R$60",
-      venue: "Nós Coworking",
-      address: "Av. Cristovão Colombo 545, Prédio 2",
+      description: "#VivaSeuTempo",
+      date: "13 de Novembro (confirmado!)",
+      price: "R$240",
+      venue: "Auditório da Assespro-RS (Tecnopuc, Prédio 96D, Sala 207)",
+      address: "Av. Ipiranga, 6681",
       city: "Porto Alegre",
       state: "Rio Grande do Sul"
     },
@@ -31,13 +31,13 @@ module.exports = {
     // Active sections on the website
     // to deactivate comment out with '//'
     // you can also change order here and it will reflect on page
+//      'sponsors',
+//    'partners',
     sections: [
       'about',
       'location',
       'speakers',
       'schedule',
-      'sponsors',
-      'partners',
       'contact'
     ],
 
@@ -106,7 +106,7 @@ module.exports = {
       {
         name: "Nós Coworking",
         logo: "themes/yellow-swan/img/nos-coworking.png",
-        url: "http://eventick.com.br"
+        url: "http://www.noscoworking.com.br"
       }
     ],
 
